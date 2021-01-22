@@ -25,16 +25,21 @@ h2 {
   font-size: 14px;
 }
 
-
 section {
   padding: 0px 20px 5px 20px;
   line-height: 110%;
 }
 
 footer {
+  margin: 20px;
   text-align: center;
 }
 
 a {
   color: #333;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
 }
