@@ -6,10 +6,24 @@
 body {
   font-family: typewriter;
   margin: auto;
-  width: 800px;
-  color: #444444;
+  max-width: 800px;
+  color: #333;
+  background-color: #eee;
 }
 
-h1 {
-    text-align: center;
+h1,
+h2 {
+  text-align: center;
+}
+
+section {
+  padding: 0px 10px 5px 10px;
+}
+
+footer {
+  text-align: center;
+}
+
+a {
+  color: #333;
 }
