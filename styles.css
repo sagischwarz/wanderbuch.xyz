@@ -16,6 +16,16 @@ h2 {
   text-align: center;
 }
 
+h1 {
+  margin-bottom: 0px;
+}
+
+h2 {
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+
 section {
   padding: 0px 20px 5px 20px;
 }
