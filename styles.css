@@ -1,0 +1,15 @@
+@font-face {
+  font-family: typewriter;
+  src: url(https://ctrlcctrlv.github.io/TT2020/dist/TT2020Base-Regular.woff2);
+}
+
+body {
+  font-family: typewriter;
+  margin: auto;
+  width: 800px;
+  color: #444444;
+}
+
+h1 {
+    text-align: center;
+}
