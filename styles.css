@@ -18,16 +18,18 @@ h2 {
 
 h1 {
   margin-bottom: 0px;
+  font-size: 52px;
 }
 
 h2 {
   margin-bottom: 30px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 section {
   padding: 0px 20px 5px 20px;
   line-height: 110%;
+  font-size: 18px;
 }
 
 footer {
