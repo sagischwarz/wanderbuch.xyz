@@ -67,11 +67,18 @@ img {
 }
 
 @media only screen and (max-width: 500px) {
+  p {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+  }
+
   figure {
     width: 97%;
     margin: 0px 0px 10px 0px;
   }
-  
+
   img {
     width: 100%;
   }
