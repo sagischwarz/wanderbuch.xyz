@@ -45,3 +45,7 @@ img {
   width: 100%;
   max-width: 200px;
 }
+
+figure {
+  margin-left: 0px;
+}
