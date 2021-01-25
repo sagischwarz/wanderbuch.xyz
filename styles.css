@@ -1,10 +1,10 @@
 @font-face {
-  font-family: typewriter;
-  src: url(https://ctrlcctrlv.github.io/TT2020/dist/TT2020Base-Regular.woff2);
+  font-family: ebgaramond;
+  src: url(fonts/EBGaramond-VariableFont_wght.ttf);
 }
 
 body {
-  font-family: typewriter;
+  font-family: Garamond, ebgaramond, serif;
   margin: auto;
   max-width: 800px;
   color: #333;
