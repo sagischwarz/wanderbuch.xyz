@@ -1,3 +1,7 @@
+:root {
+  --image-size: 200px;
+}
+
 @font-face {
   font-family: ebgaramond;
   src: url(fonts/EBGaramond-VariableFont_wght.ttf);
@@ -41,11 +45,34 @@ a {
   color: #333;
 }
 
-img {
-  width: 100%;
-  max-width: 200px;
+figure {
+  width: var(--image-size);
+  height: var(--image-size);
+  margin: 0px 10px 0px 0px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  text-align: center;
+  display: inline-block;
 }
 
-figure {
-  margin-left: 0px;
+figure:hover {
+  border: 1px solid #777;
+}
+
+img {
+  width: var(--image-size);
+  height: var(--image-size);
+  object-fit: cover;
+  object-position: top;
+}
+
+@media only screen and (max-width: 500px) {
+  figure {
+    width: 97%;
+    margin: 0px 0px 10px 0px;
+  }
+  
+  img {
+    width: 100%;
+  }
 }
